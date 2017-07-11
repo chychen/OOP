@@ -45,7 +45,7 @@ hyper parameters:
 ## Testing on VR data
 1. Project and normalize the 3D coordinated VR writing trajectory data and get filename.json
 ```python
-python air_writing/ui_labeling /preprocessing sphere_fitting.py
+python air_writing/ui_labeling/preprocessing sphere_fitting.py
 ```
 2. Generate input data from filename.json and get VRdataValidation.npy and VRlabelValidation.npy
 ```python
@@ -57,8 +57,9 @@ python air_writing/recognition/src test_blstm.py
 ```
 
 ## Reference
-[ [LiBu05-03] Liwicki, M. and Bunke, H.: IAM-OnDB - an On-Line English Sentence Database Acquired from Handwritten Text on a Whiteboard. 8th Intl. Conf. on Document Analysis and Recognition, 2005, Volume 2, pp. 956 - 961 ](http://www.fki.inf.unibe.ch/databases/iam-on-line-handwriting-database/iam-on-line-handwriting-database#LiBu05-03)
+[ [LiBu05-03] Liwicki, M. and Bunke, H.: IAM-OnDB - an On-Line English Sentence Database Acquired from Handwritten Text on a Whiteboard. 8th Intl. Conf. on Document Analysis and Recognition, 2005, Volume 2, pp. 956 - 961 ](http://www.fki.inf.unibe.ch/databases/iam-on-line-handwriting-database/iam-on-line-handwriting-database#LiBu05-03)   
 
+[A Novel Approach to On-Line Handwriting Recognition Based on Bidirectional Long Short-Term Memory Networks](http://www.cs.toronto.edu/~bonner/courses/2016s/csc321/readings/A%20novel%20approach%20to%20on-line%20handwriting%20recognition%20based%20on%20bidirectional%20long%20short-term%20memory%20networks.pdf) 
 ## License
 MIT License
 
