@@ -10,7 +10,7 @@
 1. Go to http://www.fki.inf.unibe.ch/databases/iam-handwriting-database download the IAM On-Line Handwriting DataBase.
     And store the dataset folders 'ascii' and 'lineStrokes' under air_writing/data/
 
-2. Generate dense tensor inputf files: data.npy and label.npy.  
+2. Generate dense tensor input data: data.npy and label.npy.  
 ```python
 python air_writing/recognition/src UltraProcess.py
 ```
