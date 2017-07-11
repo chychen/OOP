@@ -48,3 +48,6 @@ python air_writing/recognition/src tagProcess.py
 ```python
 python air_writing/recognition/src test_blstm.py
 ```
+
+## Reference
+[LiBu05-03] Liwicki, M. and Bunke, H.: IAM-OnDB - an On-Line English Sentence Database Acquired from Handwritten Text on a Whiteboard. 8th Intl. Conf. on Document Analysis and Recognition, 2005, Volume 2, pp. 956 - 961
